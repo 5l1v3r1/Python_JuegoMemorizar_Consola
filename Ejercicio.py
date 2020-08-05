@@ -64,7 +64,7 @@ if __name__ == '__main__':
                     try:
                         lista_verificacion.append(int(input("Introduce el " + str(j + 1) + " valor: ")))
                     except:
-                        print("Error al ingrear el dato, vuelve a ingresarlo")
+                        print("Error al ingresar el dato, vuelve a ingresarlo")
                         ingresa()
 
                 ingresa()
@@ -81,9 +81,11 @@ if __name__ == '__main__':
             nivel = nivel +1    # Subió de nivel
             delay = delay -1
             print("Felicitaciones , usted subió de nivel")
+            time.sleep(5)
             LimpiarPantalla()
         else:
             print("Error, usted no pudo subir")
+            time.sleep(5)
             LimpiarPantalla()
             juego(lista,delay, nivel)
 
