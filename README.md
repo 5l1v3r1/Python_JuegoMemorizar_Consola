@@ -1,0 +1,2 @@
+# Python_Ejercicio_Algoritmos_
+Ejercicio
